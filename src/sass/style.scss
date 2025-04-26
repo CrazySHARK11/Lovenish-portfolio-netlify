@@ -84,21 +84,23 @@ nav{
     opacity: 0;
     position: relative;
     width: 100%;
-    gap: 1em;
+    gap: 100px;
     justify-content: center;
+    align-items: center;
     p{
         width: min(600px , 100%);
         font-size:min(1.2em , 7vw);
+        text-align: center;
     }
     h1{
-        font-size: min(3em , 10vw);
+        font-size: min(6em , 10vw);
         word-spacing: 5px;
         span{
             color: $useCol;
         }
     }
     h3{
-        font-size:min(2em , 7vw);
+        font-size:min(3em , 7vw);
         span{
             color: $useCol;
         }
